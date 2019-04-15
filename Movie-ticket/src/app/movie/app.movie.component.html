@@ -1,0 +1,70 @@
+ <!-- <div class="card">  
+        
+            <div class="card text-red bg-info mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <h5 class="card-title">Info card title</h5>
+             <div class="card-body">
+             
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  
+
+            
+
+    
+        
+            <app-movie></app-movie>
+        </div>
+        <div class="card-footer text-muted fixed-bottom">
+                @copyright Mintex tech {{now | date : 'MM-dd-yyyy hh:mm:ss a'}}
+        </div>
+    </div>-->
+
+
+
+     <!-- <table class="table table-bordered">   
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">image</th>
+                    <th scope="col">Rating</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let cinema of myCinemas">
+                <th scope="row">{{cinema.id}}</th>
+                <td>{{cinema.name | uppercase }}</td>
+                
+                
+                </tr>
+            </tbody>
+            </table> -->
+
+
+            
+       <div class="card-group">  
+                    
+
+              <!-- <div class="card-deck">   -->
+                    <!-- <div class="card-columns"  >  -->
+                    <div class="col-sm-3" *ngFor="let cinema of myCinemas">
+                            <div class="card-header">
+                      <img class="card-img-top" src="{{cinema.image}}" alt="Card image cap"  height="200" width="200"> 
+                      </div>
+                      <!-- <img src= "{{cinema.image}}" border:5px solid> -->
+                      <div class="card">
+                        <div class="card-body">
+                                <h5 class="card-title">{{cinema.name}}</h5>
+                                <p class="card-text">*****</p>
+                              </div>
+                              <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+
+                                
+                
+                                
+                              </div>
+                            </div>
+
+
+                            

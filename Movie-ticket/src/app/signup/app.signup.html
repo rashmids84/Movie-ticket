@@ -1,0 +1,52 @@
+<div style="border: 3px solid #dddddd; width: 100%;">
+    <div class="card-body">
+      <form (ngSubmit)="addUser(userForm.value)" #userForm="ngForm">
+        <div class="alert alert-success" [class.has-error]="userName.invalid && userName.touched">
+          <label class="control-label">User Name</label>
+          <label>
+            <input #userName="ngModel"
+                   [ngModel]="userForm.userName"
+                   class="form-control" name="userName"  pattern=".....+"
+                   type="text"
+                   required>
+          </label>
+          <div *ngIf="userName.invalid && userName.touched" class="alert alert-danger">
+            user name is requried, and must be at least 10 characters.
+          </div>
+          <div class="form-group" [class.has-error]="emailId.invalid && emailId.touched">
+            <label class="control-label">Email Id</label>
+            <label>
+              <input #emailId="ngModel"
+                     [ngModel]="userForm.emailId"
+                     class="form-control" name="emailId" pattern="....+"
+                     type="text"
+                     required>
+            </label>
+            <div *ngIf="emailId.invalid && emailId.touched" class="alert alert-danger">
+              Emailid id is requried, and must be at least 10 characters.
+            </div>
+          </div>
+          <div class="form-group" [class.has-error]="password.invalid && password.touched">
+            <label class="control-label">Password</label>
+            <label>
+              <input #password="ngModel" 
+                     [ngModel]="userForm.password"
+                     class="form-control" name="password" pattern="......+"
+                     required
+                     type="password">
+            </label>
+            <div *ngIf="password.invalid && password.touched" class="alert alert-danger">
+              password is requried, and must be at least 5 characters.
+            </div>
+            <div class="form-group row mb-2">
+              <div class="offset-md-2 col-md-4">
+                <button type="submit">Save</button>
+              </div>
+            </div>
+          </div>
+          Model: {{user | json }}
+          {{userForm.valid}}
+        </div>
+      </form>
+    </div>
+  </div>

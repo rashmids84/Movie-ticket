@@ -1,0 +1,129 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "Head First Java",
+      "price": 5999.99
+    },
+    {
+      "id": 2,
+      "name": "C Plus Plus",
+      "price": 15000.99
+    },
+    {
+      "id": 3,
+      "name": "Python",
+      "price": 99999.99
+    },
+    {
+      "id": 4,
+      "name": "Angular 7",
+      "price": 3900009.99
+    },
+    {
+      "id": 5,
+      "name": "Outliers",
+      "price": 19.99
+    },
+    {
+      "id": 19,
+      "name": "Book Test",
+      "price": 15.99
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "deepak",
+      "emailID": "deepak@gmail.com",
+      "password": "angular"
+    },
+    {
+      "id": 2,
+      "name": "rashmi",
+      "emailID": "rashmi@gmail.com",
+      "password": "angular"
+    },
+    {
+      "id": 3,
+      "name": "mahek",
+      "emailID": "mahek@gmail.com",
+      "password": "angular"
+    },
+    {
+      "emailID": "test@mintex.com",
+      "password": "test1",
+      "id": 4
+    },
+    {
+      "emailID": "test@mintex.com",
+      "password": "test1111",
+      "id": 5
+    },
+    {
+      "emailID": "rudra@gmail.com",
+      "password": "angular",
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "emailID": "nital@gmail.com",
+      "password": "angular",
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "emailID": "nital@gmail.com",
+      "password": "angular",
+      "id": 12
+    },
+    {
+      "emailID": "nital@gmail.com",
+      "password": "angular",
+      "id": 13
+    },
+    {
+      "emailID": "nital@gmail.com",
+      "password": "angular",
+      "id": 14
+    },
+    {
+      "emailID": "abc@gmail.com",
+      "password": "angular",
+      "id": 15
+    }
+  ],
+  "cinemas": [
+    {
+      "id": 1,
+      "name": "Harry Potter",
+      "image": "http://www.gstatic.com/tv/thumb/v22vodart/28630/p28630_v_v8_ba.jpg",
+      "trailer": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjGnanx9LLhAhWJdd8KHY8oDhwQ3ywwAHoECAcQAw&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DVyHV0BRtdxo&usg=AOvVaw2HbOpLaiH5zGLkwuATgpLr",
+      "rating": "5"
+    },
+    {
+      "id": 2,
+      "name": "Incredible",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_bec689ca-8772-42be-a921-d841069e8227?wid=488&hei=488&fmt=pjpeg",
+      "trailer": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwiYv7609bLhAhWvmOAKHS3kACQQ3ywwAHoECAUQAw&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-UaGUdNJdRQ&usg=AOvVaw12HvkcGLAGIRIkdE69KrTq",
+      "rating": "5"
+    },
+    {
+      "id": 3,
+      "name": "Zootopia",
+      "image": "http://www.gstatic.com/tv/thumb/v22vodart/11993845/p11993845_v_v8_ab.jpg",
+      "trailer": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjirMDh9bLhAhVBT98KHfKuD0cQ3ywwAHoECAgQAw&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D_MC3XuMvsDI&usg=AOvVaw2hr2h4uHGjN_qDFTR34L2H",
+      "rating": "4"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+.card-body{
+    max-width:400px;
+    padding:10px;
+    margin-top:0px;
+    
+  }
+  
+  .card-deck{
+    margin-bottom:3.2rem;
+    display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+  }
+  
+  .front-deck{
+   padding-top:12rem;
+  }
+ 
+  .card{
+    
+    border:none;
+    flex: 0 0 auto;
+  }
+  
+  .card .card-body:first-of-type{
+    border:2px solid #96cecf;
+    border-top:0px; 
+  }

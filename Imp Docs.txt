@@ -1,0 +1,39 @@
+data types in JAVA
+access modifier in java
+keywords in java
+stackblitz- where u can write typescript
+what is ducktyping
+list,set and map in java
+webstorm typescript pluggin
+this in fn and this in arrow 
+jsonplaceholder.typicode.com
+
+
+angular project-
+commands-
+ng build
+ng serve
+ng test
+ng lint
+
+
+java pojo
+banana bracket
+
+
+json server command for db watch
+json-server --watch db.json --watch movie.json
+
+
+json pipe
+
+
+npm install fontawsome- in angular.json / src/styles.css add nodemodules/font-awsome/scss/font-awsome.scss
+
+
+
+
+ajile
+
+
+primeng for charts
